@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myapp.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:text="@string/lbl_title"
+        style="@style/MyTitleLabel"
+    />
+
+    <Button
+        android:id="@+id/btnSpotify"
+        android:text="@string/btn_spotify"
+        style="@style/MyButton" />
+
+    <Button
+        android:id="@+id/btnScores"
+        android:text="@string/btn_scores"
+        style="@style/MyButton" />
+
+    <Button
+        android:id="@+id/btnLibrary"
+        android:text="@string/btn_library"
+        style="@style/MyButton" />
+
+    <Button
+        android:id="@+id/btnBigger"
+        android:text="@string/btn_bigger"
+        style="@style/MyButton" />
+
+    <Button
+        android:id="@+id/btnReader"
+        android:text="@string/btn_reader"
+        style="@style/MyButton" />
+
+    <Button
+        android:id="@+id/btnMyOwnApp"
+        android:text="@string/btn_my_own_app"
+        style="@style/MySecondaryButton" />
+
+</LinearLayout>

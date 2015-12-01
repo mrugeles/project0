@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="MyTitleLabel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/btn_spotify</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:width">200dp</item>
+        <item name="android:background">#006688</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="MySecondaryButton" parent="MyButton">
+        <item name="android:background">#E91E63</item>
+    </style>
+
+</resources>
