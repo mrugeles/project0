@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_fg" type="color">#ffffff</item>
+    <item name="main_btn_bg" type="color">#006688</item>
+    <item name="secondary_btn_bg" type="color">#E91E63</item>
+</resources>

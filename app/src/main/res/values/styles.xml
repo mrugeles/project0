@@ -23,14 +23,14 @@
         <item name="android:text">@string/btn_spotify</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:width">200dp</item>
-        <item name="android:background">#006688</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/main_btn_bg</item>
+        <item name="android:textColor">@color/btn_fg</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_margin">3dp</item>
     </style>
 
     <style name="MySecondaryButton" parent="MyButton">
-        <item name="android:background">#E91E63</item>
+        <item name="android:background">@color/secondary_btn_bg</item>
     </style>
 
 </resources>
